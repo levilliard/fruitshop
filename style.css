@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+} 
+
+.flexview {
+    display: flex;
+}
+
+.flexview p {
+    flex: 1;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 10px;
+}
+
+.fruit-input {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.remove-btn {
+    border: none;
+    background: rgb(255, 68, 68);
+    color: white;
+}
+
+.remove-btn:hover {
+    background: rgb(194, 50, 50);
+    color: white;
+}
+
+.large {
+    font-size: 1.2rem;
+}
+
+form {
+    height: 60vh;
+    padding-top: 70px;
+	margin-inline-start: 15%;
+}
+
+.total {
+      justify-content: center;
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+.header{
+     width: 95%;
+    height: 40px;
+    background-color: burlywood;
+    flex-direction:row;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    }
+  .footer{
+    width: 95%;
+    display:flex;
+    height: 40px;
+    justify-content: center;
+    background-color: rgb(176, 178, 201);
+    align-items: center;
+       }
+
+  .sidebar{
+        width: 30%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(225, 231, 224);
+        margin-block-start: 1%;
+        margin-block-end: 1%;
+        overflow: hidden;
+        
+    }
+     
+        .main_content{
+        height: 700px;
+        background-color: rgb(137, 142, 151);
+        margin-block-start: 1%;
+        margin-block-end: 1%   ;    
+        }
+            
+  .page{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(240, 255, 255, 0.808);
+      
+    }
+
+    .input {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .bkg1 {
+        color: white;
+        background: url('./img/bg-pattern.png'),#7b4397;
+        background: url('./img/bg-pattern.png'),linear-gradient(to left,#7b4397,#dc2430);
+    }
